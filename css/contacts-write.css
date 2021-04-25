@@ -1,0 +1,112 @@
+.contacts-write {
+  display: flex;
+}
+
+.contacts-h2 {
+  margin-left: 45px;
+}
+
+.contacts-list {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 45px 45px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.contacts-item {
+  display: flex;
+  padding-bottom: 25px;
+  max-width: 390px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.contacts-item:not(:first-child){
+  padding-top: 25px;
+}
+
+.contacts-list .contacts-item-btn {
+  padding-top: 0;
+  border: none;
+}
+
+.contacts-h3 {
+  display: flex;
+  min-width: 108px;
+  color: #666666;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contacts-text {
+  margin-left: 40px;
+  max-width: 230px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.contacts-text-a {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-email {
+  color: #a0a0a0;
+}
+
+.contacts-a {
+  color: #cc9933;
+}
+
+.contacts-btn {
+  margin-top: 45px;
+  padding: 30px 25px 30px 25px;
+  max-width: 380px;
+  color: #cc9933;
+  font-weight: bold;
+  background-color: #fff;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+}
+
+.write {
+  max-width: 340px;
+  margin: auto;
+}
+
+.write-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+}
+
+.write-input {
+  padding: 25px 0px 30px 20px;
+  width: 340px;
+  border-radius: 10px;
+  border: none;
+}
+
+.write-input:not(:first-child),
+.write-textarea,
+.write-btn {
+  margin-top: 25px;
+}
+
+.write-textarea {
+  padding: 15px 0px 0px 20px;
+  width: 340px;
+  height: 110px;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+}
+
+.write-btn {
+  display: inline-block;
+  padding: 25px 0px 25px 0px;
+  max-width: 340px;
+  color: #fff;
+  background-color: #cc9933;
+  border-radius: 10px;
+}

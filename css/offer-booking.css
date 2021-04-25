@@ -1,0 +1,105 @@
+.offer-booking {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking {
+  max-width: 520px;
+}
+
+.booking-h {
+  padding: 35px 0 0 45px;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.booking-form {
+  margin-top: 20px;
+}
+
+.booking-input {
+  padding: 25px 25px 25px 20px;
+  width: 520px;
+  border-radius: 10px;
+}
+
+.booking-input:not(:first-child) {
+  margin-top: 25px;
+}
+
+.booking-btn {
+  margin-top: 25px;
+  padding: 25px 30px;
+  color: #fff;
+  background-color: #cc9933;
+  border-radius: 10px;
+}
+
+.booking-text {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.booking-a {
+  color: #cc9933;
+  margin-right: 4px;
+}
+
+.offer {
+  padding: 35px 0;
+}
+
+.offer-special {
+  font-size: 40px;
+}
+
+.offer-info {
+  padding: 35px 40px 35px 40px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 20px;
+  height: 540px;
+  width: 595px;
+  background-image: url("../img/luxury.jpg");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.offer-info:nth-child(n+3) {
+  margin-top: 50px;
+}
+
+.offer-text {
+  max-width: 330px;
+}
+
+.offer-h {
+  margin-bottom: 40px;
+  line-height: 58px;
+  font-size: 66px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.offer-price {
+  display: inline-block;
+  color: #888483;
+  font-size: 35px;
+}
+
+.offer-a {
+  margin-left: 35px;
+  color: #ffcc66;
+}
+
+.offer-arrow {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  background-image: url("../img/arrow.svg");
+  background-size: 20px 16px;
+  background-repeat: no-repeat;
+  background-position: 5px 14px;
+}

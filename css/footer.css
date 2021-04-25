@@ -1,0 +1,91 @@
+.footer {
+  display: flex;
+  margin: 20px 0px 50px 0px;
+  padding: 50px;
+  background-color: #333333;
+  color: #fff;
+  background-image: url("../img/bottom-sun.png");
+  background-repeat: no-repeat;
+  background-position: 750px 148px;
+  border-radius: 10px;
+}
+
+.footer-p {
+  max-width: 320px;
+  line-height: 32px;
+}
+
+.footer-p:not(:first-child) {
+  margin-top: 50px;
+}
+
+.footer-a {
+  color: #cc9933;
+}
+
+.footer-privacy {
+  display: inline-block;
+  margin-top: 50px;
+  max-width: 320px;
+}
+
+.footer-right {
+  margin-left: 110px;
+}
+
+.footer-address {
+  max-width: 370px;
+  padding-top: 8px;
+  font-style: normal;
+}
+
+.footer-tel {
+  margin-top: 40px;
+  max-width: 160px;
+  line-height: 25px;
+}
+
+.footer-mail {
+  margin-top: 40px;
+  max-width: 130px;
+  line-height: 25px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+}
+
+.footer-link {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+
+.tripadvisor {
+  background-image: url('../img/tripadvisor.png');
+}
+
+.twitter {
+  background-image: url('../img/twitter.png');
+}
+
+.facebook {
+  background-image: url('../img/facebook.png');
+}
+
+.social {
+  background-image: url('../img/social.png');
+}
+
+.google-plus-social-logotype {
+  background-image: url('../img/google-plus-social-logotype.png');
+}
+
+.footer-link:not(:first-child) {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+

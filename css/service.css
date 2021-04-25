@@ -1,0 +1,69 @@
+.service {
+  padding: 35px 0;
+}
+
+.service-h {
+  padding-left: 45px;
+  font-size: 40px;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.service-item {
+  margin-bottom: 25px;
+
+}
+
+.exclusive-item {
+  background-image: url("../img/maintenance.jpg");
+}
+
+.rent-item {
+  background-image: url("../img/rent.jpg");
+}
+
+.saunas-item {
+  background-image: url("../img/saunas.jpg");
+}
+
+.parking-item {
+  background-image: url("../img/parking.jpg");
+}
+
+.service-text {
+  padding: 200px 35px 40px 35px;
+  width: 575px;
+  border-radius: 10px;
+  background-color: #fff;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.service-a {
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 20px;
+  font-size: 22px;
+  color: #cc9933;
+}
+
+.service-arrow {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+
+}
+
+.service-p {
+  margin-top: 15px;
+  max-width: 395px;
+  line-height: 32px;
+}

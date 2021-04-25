@@ -1,0 +1,73 @@
+.header {
+  padding: 30px 0 35px 0;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+}
+
+.header-phone {
+  margin-left: 25px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  color: #666666;
+}
+
+.pers-ac {
+  padding-left: 30px;
+  display: inline-block;
+  margin-top: 20px;
+  color: #cc9933;
+  background-image: url("../img/keyboard_tab.svg");
+  background-repeat: no-repeat;
+  background-position: left 0;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 25px 25px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.search-form {
+  display: flex;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.header-input {
+  width: 310px;
+  height: 45px;
+  background-color: #f1f1f1;
+  border: 0;
+  border-radius: 15px 0 0 15px;
+}
+
+.header-btn {
+  width: 45px;
+  height: 45px;
+  border: 0;
+  border-radius: 0 15px 15px 0;
+  background-image: url("../img/search.svg");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-position: 7px center;
+}

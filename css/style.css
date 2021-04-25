@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/fonts/MullerMedium.woff') format('woff'),
+    url('../fonts/Medium.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerRegular.woff2') format('woff2'),
+    url('../fonts/MullerRegular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/fonts/MullerBold.woff') format('woff'),
+    url('../fonts/MullerBold.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: url('../fonts/MullerLight.woff2') format('woff2'),
+    url('../fonts/MullerLight.woff') format('woff');
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  /*Свойства width и height включают в себя значения полей и границ, но не отступов (margin)*/
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; /*Что включает в себя ширина и высота наследуется у родителя*/
+}
+
+body {
+  min-width: 320px; /*Минимальная ширина*/
+  margin: 0;
+
+  background-color: #f1f1f1;
+  font-family: "Muller", Arial, sans-serif;  /* Шрифт*/
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 1; /*Текст центрируется по вертикали*/
+}
+
+.input {
+  padding-left: 20px;
+}
+
+.btn, .input {
+  font: inherit; /*Наследуется у родителя*/
+  border: none;
+}
+
+.img {
+  max-width: 100%; /*Максимальная ширина 100%*/
+  height: auto; /*Высота исходя из содержимого*/
+}
+
+.h2, .h3, .p, .ul{
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.h2 {
+  font-size: 40px;
+}
+
+.a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ul {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.container  {
+  max-width: 1165px;
+  margin: auto;
+}
+
